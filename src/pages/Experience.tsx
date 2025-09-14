@@ -60,6 +60,17 @@ to ensure precise underwater positioning; deployed ROS 1 on Ubuntu using Docker 
         </section>
 
         <hr className="my-6 border-white/10" />
+
+        <section>
+          <h3 className="text-lg font-semibold">
+            Lab Member · <span className="text-slate-300">High School Robotics Team Lead (FTC)</span>
+          </h3>
+          <p className="text-sm text-slate-400">New York, NY · Jun 2023 – Present</p>
+          <p className="mt-2 text-sm text-slate-300">
+          Led coding for FTC robotics team, qualifying for the Long Island Championship three consecutive years. Developed autonomous and driver control systems (Java/Android Studio), implemented OpenCV object detection, built 3D CAD models (Fusion 360, OnShape), and mentored junior programmers.</p>
+        </section>
+
+        <hr className="my-6 border-white/10" />
       </main>
     </div>
   );
