@@ -79,7 +79,7 @@ export default function Project() {
               ))}
             </div>
             <div className="mt-3 text-sm">
-              <a className="underline" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="underline" href="https://github.com/syttpz/SCA_testing_tool" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </section>
         </div>
