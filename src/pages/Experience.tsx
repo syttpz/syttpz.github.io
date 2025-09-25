@@ -63,7 +63,7 @@ to ensure precise underwater positioning; deployed ROS 1 on Ubuntu using Docker 
 
         <section>
           <h3 className="text-lg font-semibold">
-            Lab Member · <span className="text-slate-300">High School Robotics Team Lead (FTC)</span>
+            <span className="text-slate-300">High School Robotics Team Lead (FTC)</span>
           </h3>
           <p className="text-sm text-slate-400">New York, NY · Jun 2023 – Present</p>
           <p className="mt-2 text-sm text-slate-300">

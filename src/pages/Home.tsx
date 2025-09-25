@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold">We1c0me!</h2>
           <br />
           <p className="text-slate-300">Math & CS student at NYU Tandon.</p>
-          <p className="text-slate-300">C++ · Python · Typescript · Rust · React · MySQL</p>
+          <p className="text-slate-300">C++ · Python · Typescript · ROS · Rust · React · MySQL</p>
           <br />
 
           <p className="text-slate-300">
