@@ -22,8 +22,7 @@ export default function Home() {
           <br />
 
           <p className="text-slate-300">
-            Open to collaborate on dev tooling, desktop (Tauri), browser extensions, and backend/systems.
-            Also seeking Summer 2026 SWE/Systems internships. Happy to chat :)
+          Interested in collaborations across developer tooling, desktop apps, browser extensions, backend/systems, and robotics (ROS, motion control). Actively seeking Summer 2026 SWE/Systems/Robotics internships.
           </p>
           <br />
           <p className="text-xl font-bold">Contact</p>
