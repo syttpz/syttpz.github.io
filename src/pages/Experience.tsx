@@ -14,11 +14,9 @@ export default function Experience() {
           </h3>
           <p className="text-sm text-slate-400">Shanghai, China · Jun 2024 – Aug 2024</p>
           <ul className="mt-2 list-disc pl-5 text-sm text-slate-300 space-y-1">
-            <li>Automated daily audit evidence with a cron-scheduled Selenium and Baidu OCR workflow that logs in, takes
-screenshots, extracts text, and autofills templates, reducing prep to 5 minutes</li>
+            <li>Automated daily audit evidence with a cron-scheduled Selenium and Baidu OCR workflow that logs in, takes screenshots, extracts text, and autofills templates, reducing prep to 5 minutes</li>
             <li>Configured Smokeping for concurrent monitoring across 40 hosts, improving coverage of packet loss and latency.</li>
-            <li>Built an internal dashboard with Flask and MySQL to inventory TCP listening processes across servers, accel-
-erating incident triage.</li>
+            <li>Built an internal dashboard with Flask and MySQL to inventory TCP listening processes across servers, accelerating incident triage.</li>
           </ul>
         </section>
 
@@ -31,7 +29,7 @@ erating incident triage.</li>
           <p className="text-sm text-slate-400">Fremont, CA · Jul 2021 – Aug 2022</p>
           <ul className="mt-2 list-disc pl-5 text-sm text-slate-300 space-y-1">
             <li>Supported a wearable-based cardiovascular study: onboarded volunteers and data collection.</li>
-            <li>Ran Python scripts to perform Fourier analysis on logged signals and annotated the top three peaks; generated plots from CSV data for investigators.</li>
+            <li>Automated Fourier-analysis scripts in Python to identify dominant signal peaks and generate plots from CSV datasets for invetigators.</li>
           </ul>
         </section>
 
@@ -43,8 +41,8 @@ erating incident triage.</li>
           </h3>
           <p className="text-sm text-slate-400">New York, NY · Jan 2024 – Present</p>
           <p className="mt-2 text-sm text-slate-300">
-          State estimation & trajectory control; PID with gyroscope feedback for robust trajectory tracking; integrated depth sensor data
-to ensure precise underwater positioning; deployed ROS 1 on Ubuntu using Docker to simulate motion; preparing for RoboSub 2026.
+          Motion team lead (Fall 2025-Present) of NYU's Autonomous Underwater Vehicle team, preparing for the 2026 RoboSub competition. 
+          Responsibilities include designing and implementing motion control algorithms (PID, thruster mixing), integrating sensors (IMU, depth, cameras), and coordinating with other subsystems (vision, autonomy) to ensure robust AUV operation.
           </p>
         </section>
 
@@ -63,7 +61,7 @@ to ensure precise underwater positioning; deployed ROS 1 on Ubuntu using Docker 
 
         <section>
           <h3 className="text-lg font-semibold">
-            <span className="text-slate-300">High School Robotics Team Lead (FTC)</span>
+          High School Robotics Team Lead · <span className="text-slate-300">First Tech Challenge</span>
           </h3>
           <p className="text-sm text-slate-400">New York, NY · Sep 2019 – 2023</p>
           <p className="mt-2 text-sm text-slate-300">
