@@ -92,6 +92,8 @@ export default function Project() {
             </div>
           </section>
 
+          <hr className="my-6 border-white/10" />
+
           <section id="finance/ds">
             <h2 className="text-xl font-semibold">Finance & Economics Time-Series Analysis</h2>
             <p className="mt-1 text-slate-300">
