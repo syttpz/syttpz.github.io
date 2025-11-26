@@ -97,7 +97,8 @@ export default function Project() {
           <section id="finance/ds">
             <h2 className="text-xl font-semibold">Finance & Economics Time-Series Analysis</h2>
             <p className="mt-1 text-slate-300">
-            Ongoing NYU Data Science Bootcamp project analyzing GDP, inflation, and interest-rate data; performed exploratory data analysis and built correlation heatmaps to uncover macroeconomic trends.
+            Ongoing NYU Data Science Bootcamp project analyzing GDP, inflation, and interest-rate data using Python, NumPy/Pandas and SQL querying; performed EDA, built correlation heatmaps, and experimented with regression
+models to uncover macroeconomic trends and short-term forecasting signals.
             </p>
             <div className="mt-2 flex flex-wrap gap-2 text-xs">
               {["Python","Pandas","Seaborn"].map(t => (

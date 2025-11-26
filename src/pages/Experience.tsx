@@ -14,8 +14,8 @@ export default function Experience() {
           </h3>
           <p className="text-sm text-slate-400">Shanghai, China · Jun 2024 – Aug 2024</p>
           <ul className="mt-2 list-disc pl-5 text-sm text-slate-300 space-y-1">
-            <li>Automated daily audit evidence with a cron-scheduled Selenium and Baidu OCR workflow that logs in, takes screenshots, extracts text, and autofills templates, reducing prep to 5 minutes</li>
-            <li>Configured Smokeping for concurrent monitoring across 40 hosts, improving coverage of packet loss and latency.</li>
+            <li>Automated security audit report with a cron-scheduled Selenium and Baidu OCR workflow that logs in, takes screenshots, extracts text, and autofills templates.</li>
+            <li>Configured Smokeping probes for concurrent monitoring, improving coverage of packet loss and latency.</li>
             <li>Built an internal dashboard with Flask and MySQL to inventory TCP listening processes across servers, accelerating incident triage.</li>
           </ul>
         </section>
@@ -54,7 +54,7 @@ export default function Experience() {
           </h3>
           <p className="text-sm text-slate-400">New York, NY · Oct 2024 – Present</p>
           <p className="mt-2 text-sm text-slate-300">
-          Member of NYU’s student-run cybersecurity research lab; lead of the SCA project, completed the OSIRIS Recruit CTF, and regularly participates in weekly meetings and CTF scrims.</p>
+          Member of NYU's student-run cybersecurity research lab; lead of the SCA project, completed the OSIRIS Recruit CTF, and regularly participates in weekly meetings and CTF scrims.</p>
         </section>
 
         <hr className="my-6 border-white/10" />
@@ -65,10 +65,9 @@ export default function Experience() {
           </h3>
           <p className="text-sm text-slate-400">New York, NY · Sep 2019 – 2023</p>
           <p className="mt-2 text-sm text-slate-300">
-          Led coding for FTC robotics team, qualifying for the Long Island Championship three consecutive years. Developed autonomous and driver control systems (Java/Android Studio), implemented OpenCV object detection, built 3D CAD models (Fusion 360, OnShape), and mentored junior programmers.</p>
+          Software lead for an FTC robotics team with three consecutive Long Island Championship qualifications. Developed autonomous and driver-control pipelines in Java (Android Studio), implemented OpenCV-powered detection and localization, created mechanical models in Fusion 360/OnShape. </p>
         </section>
 
-        <hr className="my-6 border-white/10" />
       </main>
     </div>
   );
