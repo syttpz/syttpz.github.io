@@ -44,7 +44,7 @@ export default function Layout({ children }: Props) {
     }`
 
   return (
-    <div className="flex min-h-screen bg-stone-900 text-stone-100 font-sans">
+    <div className="tech-background flex min-h-screen bg-stone-900 text-stone-100 font-sans">
       <a href="#main-content" onClick={event => {
         event.preventDefault()
         setMobileOpen(false)
@@ -84,13 +84,13 @@ export default function Layout({ children }: Props) {
       )}
 
       {/* ── Desktop sidebar ── */}
-      <aside className="hidden md:flex w-72 shrink-0 fixed h-screen flex-col border-r border-stone-700 bg-stone-900 overflow-y-auto">
+      <aside className="tech-background hidden md:flex w-72 shrink-0 fixed h-screen flex-col border-r border-stone-700 bg-stone-900 overflow-y-auto">
 
         {/* Profile section */}
         <div className="px-8 pt-12 pb-8">
           <img
             src="/profile_pic.jpg"
-            className="w-32 h-32 rounded-full object-cover mb-6"
+            className="w-32 h-32 rounded-full object-cover border border-stone-400/50 mb-6"
             alt="Eddy Hu"
           />
           <h1 className="text-2xl font-bold tracking-tight leading-tight">Eddy Hu</h1>
@@ -130,6 +130,7 @@ export default function Layout({ children }: Props) {
       <main id="main-content" tabIndex={-1} className="md:ml-72 min-w-0 flex-1 min-h-screen pt-16 md:pt-0">
         {children}
       </main>
+      <span className="live-signature" aria-hidden="true">live~</span>
     </div>
   )
 }
