@@ -1,13 +1,46 @@
 @import "tailwindcss";
-@plugin "daisyui";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Subtle dot grid for sidebar */
-.dot-bg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px);
-  background-size: 20px 20px;
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-stone-900: #111315;
+  --color-stone-800: #202429;
+  --color-stone-700: #34383d;
+  --color-stone-400: #b5bac1;
+  --color-stone-300: #e1e3e6;
+  --color-stone-100: #f5f6f7;
 }
-.dark .dot-bg {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+:root {
+  color-scheme: dark;
+  background: var(--color-stone-900);
+  color: var(--color-stone-100);
+  font-family: var(--font-sans);
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bullet-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bullet-list > li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.bullet-list > li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: #f59e0b;
 }
